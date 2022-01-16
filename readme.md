@@ -1,7 +1,7 @@
 # Author-name
 Esther Wangari Mureithi<br>
 # Program name
-Pizza Website<br>
+Riara Pizza Hub<br>
 # Description of program
 This is a website that allows pizza lovers to order from riara pizza online.They have an option of getting it delivered to the addresses they input.Also , they are allowed to choose the toppings ,size and crust of their choice from our menu.
 # Technologies used
@@ -9,7 +9,7 @@ This is a website that allows pizza lovers to order from riara pizza online.They
 (2.)CSS<br>
 (3.)Bootstrap <br>
 (4.)Javascript <br>
-(5.Jquery)
+(5.)Jquery
 
 
 # Program set-up instructions
