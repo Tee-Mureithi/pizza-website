@@ -1,0 +1,252 @@
+html,
+                body,
+                header {
+                    overflow-x: hidden;
+                    height: 100%;
+                    font-family: 'Eczar', serif;
+                }
+                
+                body {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                h1 {
+                    letter-spacing: 8px;
+                    color:white;
+                    font-weight: bolder;
+                    font-size: 80px;
+                    text-align: center;
+                }
+                
+                h2 {
+                    text-align: center;
+                }
+                
+                .landing {
+                    background-image: url("../img/riara-landing-image.jpg");
+                    background-position: center center;
+                    background-size: cover;
+                }
+                
+                .button {
+                    border-radius: 10px;
+                }
+                
+                .controls-top h2 {
+                    color: white;
+                    padding-top: 40px;
+                    padding-bottom: 20px;
+                    font-weight: bolder;
+                }
+                
+                .order h2 {
+                    text-align: center;
+                }
+                
+                .home-headings {
+                    color: white;
+                }
+                
+                #menu {
+                    background-color: bisque;
+                }
+                
+                #our-menu {
+                    color:black;
+                    text-align: center;
+                }
+                
+                #myform {
+                    font-size: 16px;
+                }
+                
+                select {
+                    width: 200px;
+                }
+                
+                .order {
+                    background-color: bisque;
+                }
+                
+                #order-head {
+                    color: black;
+                }
+                
+                .order-overlay {
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    padding-bottom: 20px;
+                    padding-left: 6%;
+                    color: black;
+                }
+                
+                .choise {
+                    display: none;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                }
+                
+                .deliver {
+                    display: none;
+                }
+                
+                .delivery {
+                    display: none;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    color: black;
+                    font-size: 20px;
+                }
+                
+                #ordersmade th {
+                    font-size: 20px;
+                    color: black;
+                }
+                
+                #ordersmade td {
+                    font-size: 20px;
+                    color: black;
+                }
+                
+                #ordersmade table {
+                    font-size: 20px;
+                    color: white;
+                }
+                
+                .pizza-top {
+                    display: table-column
+                }
+                
+                .pizza {
+                    color: rgb(8, 3, 3);
+                    font-size: 22px;
+                }
+                
+                .t-one td {
+                    border: 1px solid #ddd;
+                    text-align: left;
+                    padding: 10px;
+                }
+                
+                .t-one td {
+                    width: 50%
+                }
+                
+                .t-one th {
+                    border: 1px solid #ddd;
+                    text-align: left;
+                    padding: 10px;
+                }
+                
+                .t-one table {
+                    border-collapse: collapse;
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+                
+                .t-one tr:hover {
+                    background-color: #f5f5f5;
+                }
+                
+                .t-one th {
+                    background-color: black;
+                    color: white;
+                }
+                
+                .t-one caption {
+                    color: black;
+                    font-size: 18px;
+                }
+                .choise{
+                    color:black
+                }
+                
+                .choise h2 {
+                    color: black;
+                    text-align: left;
+                }
+                
+                #your-orders {
+                    color: black;
+                    font-size: 20px;
+                }
+                
+                #contact h2 {
+                    text-align: center;
+                }
+                
+                #contact {
+                    color: black;
+                    background-color: grey;
+                }
+                
+                #contactdetails h2 {
+                    text-align: center;
+                }
+                
+                .col-md-4 {
+                    text-align: center;
+                }
+                
+                #contact-us {
+                    color: white;
+                    text-align: center;
+                }
+                
+                #copyright {
+                    color: white;
+                    font-size: 15px;
+                }
+                
+                #addedprice {
+                    display: none;
+                }
+                
+                #finallmessage {
+                    display: none;
+                    padding-top: 10%;
+                    padding-right: 10%;
+                    padding-left: 10%;
+                    font-size: 23px;
+                }
+                
+                #information {
+                    padding-top: 5%;
+                    font-size: 18px;
+                    padding-right: 8%;
+                    padding-left: 5%;
+                    color: black;
+                }
+                
+                @media only screen and (max-width: 485px) {
+                    .flex-xs-column {
+                        flex-direction: column;
+                    }
+                }
+                
+                @media only screen and (max-width: 767px) {
+                    .order-overlay {
+                        background-color: lightseagreen;
+                        margin-left: 2%;
+                        margin-right: 2%;
+                        padding-right: 16px;
+                        padding-left: 16px;
+                    }
+                    #ordersmade {
+                        width: fit-content;
+                    }
+                    order h2 {
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    body,
+                    header,
+                    .landing {
+                        height: 100vh;
+                    }
+                    h1 {
+                        font-weight: bold;
+                        font-size: 40px;
+                    }
+                }
