@@ -9,7 +9,7 @@ This is a website that allows pizza lovers to order from riara pizza online.They
 (2.)CSS<br>
 (3.)Bootstrap <br>
 (4.)Javascript <br>
-(5.)Jquery <br>
+(5.Jquery)
 
 
 # Program set-up instructions
